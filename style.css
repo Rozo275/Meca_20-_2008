@@ -1,0 +1,21 @@
+:root{
+    font-family:Arial, Helvetica, sans-serif ;
+}
+.logo{
+    width: 100px;
+}
+#contenedor_cabecera{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contenedor_baner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./baner.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+}
